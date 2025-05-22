@@ -149,3 +149,36 @@ footer a:hover {
     border-top: solid 1px gray;
     border-bottom: solid 1px gray;
 }
+
+@media (max-width: 600px) {
+    .product-grid {
+        width:90%;
+        grid-template-columns: 1fr;
+    }
+
+    .desc {
+        font-size: 20px;
+    }
+
+    .main-cont-box {
+        background-size:90%;
+    }
+
+    .main {
+        width:60%;
+    }
+
+    .left-spacer {
+        width:0%;
+    }
+
+    .title {
+        justify-content: flex-start;
+        font-size:20px;
+    }
+
+    nav {
+        font-size: 10px;
+    }
+
+}
